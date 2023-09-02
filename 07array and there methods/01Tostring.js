@@ -13,3 +13,4 @@ console.log(arrayAsString); // Output: "1,2,3"
 var object = { name: "John", age: 30 };
 var objectAsString = object.toString();
 console.log(objectAsString); // Output: "[object Object]"
+

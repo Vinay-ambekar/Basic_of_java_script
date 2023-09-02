@@ -42,6 +42,13 @@ const numbers = [1, 2, 3, 4, 5];
 numbers.forEach(function(number, index) {
   console.log(`Element at index ${index}: ${number}`);
 });
+
+/* 
+Keep in mind that the forEach method is designed for simple iteration and doesn't return a new array; 
+it simply applies the provided function to each element. If you want to transform elements
+and create a new array based on the transformation, you might consider using methods like map.
+
+*/
 const doubledNumbers = numbers.map(function(number) {
   return number * 2;
 });

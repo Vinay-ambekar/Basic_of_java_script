@@ -15,6 +15,7 @@ const myObject = { key: "value" };
 console.log(Array.isArray(myArray)); // true
 console.log(Array.isArray(myString)); // false
 console.log(Array.isArray(myObject)); // false
+
 if (myArray instanceof Array) {
     console.log('it an array')
   } else {
