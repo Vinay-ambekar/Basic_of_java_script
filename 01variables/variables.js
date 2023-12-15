@@ -27,3 +27,27 @@ It's not visible or accessible outside the function.
 In summary, scope in JavaScript defines the visibility and accessibility of variables and functions 
 in different parts of your code, either globally for the whole program or locally within specific functions.
 */
+
+/* hositing */ /* to avoid hositin we use stric mode "use strict"  to of the code*/
+/* hosting is default behaviour of javascript where all the 
+variables and function declarations on top  */
+hoisting=3;
+console.log(hoisting)
+var hoisting;
+
+var x;/* there is no value in x */
+console.log(x)/* undefind */
+x=23
+/* hosting function */
+hoistingfunction()
+function hoistingfunction(){
+    console.log("hello world")
+}
+/* let and const can nto be used in hoisting it show error */
+
+/* string coercion */
+var filrstnumner=3;/* number */
+var string="3"/* string */
+console.log(filrstnumner+string)/* sting */
+console.log(filrstnumner-string)/* 0 is output is number */
+
