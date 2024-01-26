@@ -31,6 +31,7 @@ in different parts of your code, either globally for the whole program or locall
 /* hositing */ /* to avoid hositin we use stric mode "use strict"  to of the code*/
 /* hosting is default behaviour of javascript where all the 
 variables and function declarations on top  */
+/* "use strict" */
 hoisting=3;
 console.log(hoisting)
 var hoisting;
