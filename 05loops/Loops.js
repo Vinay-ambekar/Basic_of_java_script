@@ -1,6 +1,6 @@
 //for loop
 console.log('for loop')
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i <= 5; i++) {
     console.log("Iteration number: " + i);
 }
 
@@ -9,7 +9,8 @@ console.log('for in loop')
 const person = {
     name: 'John',
     age: 30,
-    city: 'New York'
+    city: 'New York',
+    salary:30000
 };
 
 for (let key in person) {
@@ -20,7 +21,7 @@ for (let key in person) {
 
  //for of loop
  console.log('for of loop')
- const fruits = ['apple', 'banana', 'orange'];
+ const fruits = ['apple', 'banana', 'orange','grapes'];
  
 for (let fruit of fruits) {
   console.log(fruit);
@@ -40,6 +41,7 @@ const person01= {
  as you don't need to manage an index or access elements using indexing */
 
  //while loop
+ console.log("while loop")
  let counter = 1;
 
 while (counter <= 5) {
@@ -54,29 +56,36 @@ It's a useful construct when you want to repeat a block of code until a certain 
     // Code to be executed
   //} while (condition);
  //example
- let number=8
-
+ 
+console.log("do while loop")
+let number=0
 do {
-  number =12
-} while (number < 1 || number > 10);
+  number++
+  /* console.log(number) */
 
-console.log("Valid number entered:", number);
+} while (number < 5 );
+
+console.log("counted:", number);
 
 //how to stop the loop and continue the looop
 
 //stop
-for (let i = 1; i <= 5; i++) {
-    if (i === 3) {
+console.log("Break")
+for (let a = 1; a <= 5; a++) {
+    if (a === 3) {
       break; // Stops the loop when i is equal to 3
     }
-    console.log(i);
+    console.log(a);
   }
   
   //continue
-  for (let i = 1; i <= 5; i++) {
-    if (i === 3) {
-      continue; // Skips the current iteration when i is equal to 3
+  console.log("continue")
+  for (let b = 1; b <= 5; b++) {
+    if (b === 3) {
+      
+     console.log("I am 3 and i continue to count ")
+      continue; // it will coutinue to count upto 5 , if i remove count it will stop at 3
     }
-    console.log(i);
+    console.log(b);
   }
   
