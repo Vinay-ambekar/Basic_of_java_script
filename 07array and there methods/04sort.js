@@ -8,9 +8,9 @@ var fruits = ['banana', 'apple', 'orange'];
 fruits.sort();
 console.log(fruits); // Output: ["apple", "banana", "orange"]
 //example2
-var mixedArray = [10, 2, 5, 1,'s','a',''];
+var mixedArray = [10, 2, 5, 1,'s','a','',100];
 mixedArray.sort();
-console.log(mixedArray); // Output: [1, 10, 2, 5]
+console.log(mixedArray); // Output: [ '', 1, 10,  100,2,  5, 'a', 's']
 //example3
 var numberss = [10, 2, 5, 1];
 numberss.sort(function(a, b) {
