@@ -5,11 +5,52 @@ let a=`heloo i am ${name01}`//here we are using backtiks
 console.log(a)
 let x='Adom D\'Angelo '//out put Adom D'Angelo, \n for new line
 console.log(x)
+
+/* upper case to lower , lower to upper case methods */
 console.log(name01.toUpperCase)//print HARRY
 console.log(name01.toLowerCase)//print harry
+
+/* slice method */
 console.log(name01.slice(2,4))//it print from 2 to 4 that is rr
 console.log(name01.slice(2))//it print from 2 that is rry
-console.log(x.replace("Adom","vini"))//out put vini D'Angelo 
-let y='      hello'
+
+/* replace  */
+console.log(x.replace("Adom","vini"))//out put vini D'Angelo, it replace Adom with vini 
+/* trime method remove starting and ending space */
+let y='      hello    '
 console.log(y.trim())//removes strarting white space
 console.log(name01[0])//prints h
+
+/*CharAt*/
+let str01='ui developer'
+console.log(str01.charAt(3))// at 3rd index plade d is there in str01
+console.log(str01.charCodeAt('u'));//u as unic cod on keyboards 
+
+/* concat */
+let str02='ux developer,'
+console.log(str02.concat(str01))//joins two or more two string and return new string;
+
+/* indexOf */
+let str03='indexOfe'
+console.log(str03.indexOf('e'))//it give first occurrence and serch from strating of the index. 
+console.log(str03.lastIndexOf('e'))//it give last occurrence of the value searching from backwards.
+
+/* includes */
+let str04='substring'
+console.log(str04.includes('s'))//it serch for s if it is in the string it give true or else show false.
+
+/* substr  and substring*/ //**** 
+let str05='substr'
+console.log(str05.substr(2,3));//substr has two value starindex and length ,firt vlaue takes startind index vlue and start counting from 0 to given index value.
+console.log(str05.substring(2,3))//substring has two vlaue strating index and endindex, it takes the first value and continue to count from that index value.
+
+/* touppercase and to lowercase*/
+let str06='touppercase'
+console.log(str06.toUpperCase())
+let str07='TOLOWERCASE'
+console.log(str07.toLocaleLowerCase())
+
+/* split */
+let str08='apple,banna,orange';
+console.log(str08.split(','))//In JavaScript, the split() method is used to split a string into an array of substrings based on a specified separator.
+
