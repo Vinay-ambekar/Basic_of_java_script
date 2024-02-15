@@ -1,29 +1,29 @@
 let name01="harry"// inside a double colon harry is string 
 console.log(name01)
-console.log(name01.length)//tell the length of the string
+console.log('length of name01 = ',name01.length)//tell the length of the string
 let a=`heloo i am ${name01}`//here we are using backtiks
 console.log(a)
 let x='Adom D\'Angelo '//out put Adom D'Angelo, \n for new line
 console.log(x)
 
 /* upper case to lower , lower to upper case methods */
-console.log(name01.toUpperCase)//print HARRY
-console.log(name01.toLowerCase)//print harry
+console.log('upper case = ',name01.toUpperCase())//print HARRY
+console.log('Lower case = ',name01.toLowerCase())//print harry
 
 /* slice method */
-console.log(name01.slice(2,4))//it print from 2 to 4 that is rr
-console.log(name01.slice(2))//it print from 2 that is rry
+console.log('slice method with 2 value = ',name01.slice(2,4))//it print from 2 to 4 that is rr
+console.log('slice method with one value =',name01.slice(2))//it print from 2 that is rry
 
 /* replace  */
-console.log(x.replace("Adom","vini"))//out put vini D'Angelo, it replace Adom with vini 
+console.log('replace it has two value = ',x.replace("Adom","vini"))//out put vini D'Angelo, it replace Adom with vini 
 /* trime method remove starting and ending space */
 let y='      hello    '
-console.log(y.trim())//removes strarting white space
+console.log('trime remove space at end = ',y.trim())//removes strarting white space
 console.log(name01[0])//prints h
 
 /*CharAt*/
 let str01='ui developer'
-console.log(str01.charAt(3))// at 3rd index plade d is there in str01
+console.log('charAt input value is index fot that output give letters  ',str01.charAt(3))// at 3rd index plade d is there in str01
 console.log(str01.charCodeAt('u'));//u as unic cod on keyboards 
 
 /* concat */
@@ -41,7 +41,7 @@ console.log(str04.includes('s'))//it serch for s if it is in the string it give 
 
 /* substr  and substring*/ //**** 
 let str05='substr'
-console.log(str05.substr(2,3));//substr has two value starindex and length ,firt vlaue takes startind index vlue and start counting from 0 to given index value.
+console.log(str05.substr(2,3));//substr has two value starindex and length ,firt vlaue takes starting index vlue and start counting from 0 to given index value.
 console.log(str05.substring(2,3))//substring has two vlaue strating index and endindex, it takes the first value and continue to count from that index value.
 
 /* touppercase and to lowercase*/
