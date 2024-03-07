@@ -2,11 +2,11 @@
 let petrol=101.97
 
 /* ceil,floor and  abs=>abslute*/
-console.log('round method = ',Math.round(petrol))//it give neareset to round figure according to decimal
-console.log('ceil method = ',Math.ceil(petrol))//it give higer the decimal nubers 
-console.log('floor method = ',Math.floor(petrol))//it give lower the decimal numbersand 
-console.log('abs method = ',Math.abs(petrol))//it give absulute value
-console.log('sign method = ',Math.sign(petrol))//it 1,-1 or 0 only
+console.log('round method = ',Math.round(petrol))  //it give neareset to round figure according to decimal
+console.log('ceil method = ',Math.ceil(petrol))    //it give higer the decimal nubers 
+console.log('floor method = ',Math.floor(petrol))  //it give lower the decimal numbersand 
+console.log('abs method = ',Math.abs(petrol))      //it give absulute value
+console.log('sign method = ',Math.sign(petrol))    //it 1,-1 or 0 only
 
 /* max and min */
 console.log('min method = ',Math.min(10,2,5,6,3))//2 is minimum value

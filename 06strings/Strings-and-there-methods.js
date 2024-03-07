@@ -16,6 +16,7 @@ console.log('slice method with one value =',name01.slice(2))//it print from 2 th
 
 /* replace  */
 console.log('replace it has two value = ',x.replace("Adom","vini"))//out put vini D'Angelo, it replace Adom with vini 
+
 /* trime method remove starting and ending space */
 let y='      hello    '
 console.log('trime remove space at end = ',y.trim())//removes strarting white space
@@ -26,8 +27,22 @@ let str01='ui developer'
 console.log('charAt input value is index fot that output give letters  ',str01.charAt(3))// at 3rd index plade d is there in str01
 console.log(str01.charCodeAt('u'));//u as unic cod on keyboards 
 
+/* charCodeAt:
+The charCodeAt() method in JavaScript returns an integer between 0 and 65535 
+representing the UTF-16 code unit at the given index
+*/
+const str = "Hello";
+console.log(str.charCodeAt(0)); // Output: 72 (ASCII code for 'H')
+console.log(str.charCodeAt(1)); // Output: 101 (ASCII code for 'e')
+// and so on...
+
+/* fromCharCode */
+const asciiValue = 65; // ASCII value for 'A'
+const letter = String.fromCharCode(asciiValue);
+console.log(letter); // Output: A
+
 /* concat */
-let str02='ux developer,'
+let str02='ux developer,';
 console.log(str02.concat(str01))//joins two or more two string and return new string;
 
 /* indexOf */

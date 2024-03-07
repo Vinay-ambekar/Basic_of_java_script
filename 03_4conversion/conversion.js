@@ -14,9 +14,9 @@ console.log(parseInt(c))//it do not give decimal
 let d="10.55lseklsk";
 console.log(parseInt(d))
 console.log(typeof d)
-let e="hello"+10
+let e="6"+10
 
-console.log(e)//string
+console.log('test',e)//string
 let x=10+'10'
 console.log(x)//string o/p 1010
 

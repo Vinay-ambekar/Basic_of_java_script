@@ -1,3 +1,4 @@
+
 var number = 42;
 var numberAsString = number.toString();
 console.log(numberAsString); // Output: "42"

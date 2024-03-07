@@ -39,8 +39,8 @@ and different value it only shows last parameter of the Object.assign() method
  */
 
 //object.freeze():
-/*  1.it can not add new propety or  value
-    2.it can not be modified in the exisiting propety or value*/
+/*  1.it can not add new propety and  value
+    2.it can not be modified in the exisiting propety*/
 //object.seat()
 /* 1.it can not be added new propet=rty or  value
 2.it can modified the exisisting propery or value*/
