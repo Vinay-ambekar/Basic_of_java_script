@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:"Roboto", sans-serif;
+  }
+  :root{
+    --first_color: #6772e5;
+    --second_color: #ffd257;
+    --third_color:#868eeb;
+    --fortht_color:#9ea5f0;
+    --fiveth_color:#ffdc7b;
+    --sixth_color:#fee397;
+  }
+  /* section header and page */
+  section>h1,section>p{
+    text-align: center;
+    padding:0.5rem;
+    margin:0.5rem;
+  }
+  /* for animation h1 and p tag */
+  section>h1{
+    animation: h1_animation 2s ease-in-out;
+    
+  }
+  
+  @keyframes h1_animation{
+    0%{
+      margin-top:-2.5rem;
+    }
+  100%{
+      margin-top:0.5rem;
+    }
+  }
+  /* given opecity for p tag and animating*/
+  section>p{
+    animation: p_animation 2s ease-in-out;
+    display: none;
+   
+   /*  display:none */
+  }
+  @keyframes p_animation{
+    0%{
+      opacity:0;
+    }
+  100%{
+      opacity:1;
+    }
+  }
+  
+  body{
+    height: 100rem;
+  }
+  /*section  */
+  section{
+    display:flex;
+    flex-direction:column;
+  }
+  /* two cards */
+  .cards{
+    display:none;/*display is flex change  */
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    margin:1rem;
+  }
+  /* firts card animation */
+  .firts_cards{
+    animation: firts_cards_animation 2s ease-in-out;
+   
+  }
+  @keyframes firts_cards_animation{
+    0%{
+      margin-right:-1530px
+    }
+    100%{
+      margin:0
+    }
+  }
+  
+  /* second card upper */
+  .second_upper>h2,.second_upper>p{
+    padding:0.5rem;
+    margin:0.5rem;
+  }
+  .second_upper>button{
+    padding:0.5rem;
+    margin:0.5rem;
+    background-color:var(--second_color);
+    border:none
+  }
+  
+  .second_upper{
+    background-color:var(--first_color);
+    border-radius: 10px 10px 0 0;
+    color:white;
+  }
+  .second_lower>div{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color:white;
+  }
+  .second_lower{
+    display:flex;
+    align-items: center;
+    background-color: var(--third_color);
+    border-radius: 0 0 10px 10px;
+    border-top:5px solid var(--fortht_color);
+  }
+  
+  /*first card header  */
+  .first_upper{
+     background-color:var(--second_color);
+     border-radius: 10px 10px 0 0;
+  }
+  .first_upper>h2,.first_upper>p{
+    padding:0.5rem;
+    margin:0.5rem;
+  }
+  .first_upper>button{
+    padding:0.5rem;
+    margin:0.5rem;
+    border: none;
+    background-color: var(--first_color);
+    color:white;
+  }
+  
+  /* first lower */
+  .first_lower{
+    display:flex;
+    align-items: center;
+    background-color: var(--fiveth_color);
+    border-radius: 0 0 10px 10px;
+    border-top:5px solid var(--sixth_color);
+  }
+  .first_lower>div{
+    margin:0.5rem;
+    padding: 0.5rem;
+  }
+  /*images  */
+  .imges_frist img{
+    width:70px;
+    height:70px;
+    border-radius:100%;
+    border:5px solid var(--sixth_color);
+  }
+  .imges_second img{
+    width:70px;
+    height:70px;
+    border-radius:100%;
+    border:5px solid var(--fortht_color);
+  }
